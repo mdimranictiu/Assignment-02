@@ -3,8 +3,7 @@
         flex-direction: column;
     }
     .banner{
-        display: grid;
-        grid-template-columns: 1fr;
+    flex-direction: column;
         
     }
     .changeHabit-items{
