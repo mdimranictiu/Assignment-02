@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    .link-item-wrapper {
+    .link-items {
         display: none;
     }
 
@@ -35,8 +35,9 @@
 
         width: 180px;
         height: 100px;
-        margin-top: -520px;
-        margin-left: 190px;
+        /* margin-top: -520px;
+        margin-left: 150px; */
+        right: -40px;
 
     }
     .video_tag-2 h2{
@@ -47,5 +48,8 @@
 
         grid-template-columns: 1fr;
 
+    }
+    .RunExtraMile{
+        grid-template-columns: 1fr;
     }
 }

@@ -27,7 +27,11 @@
     background: black;
 }
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgb(17, 17, 17) 100%);
+     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(255,255,255, 0.05),rgb(17, 17, 17) 100%); 
+  
+
+
+   
 }
 section{
     margin-top: 100px;
@@ -42,31 +46,27 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-.link-item-wrapper{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 40px;
-}
+
 .link-items {
     list-style: none;
-    margin-left: -30px;
-margin-right: 10px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
 
 
 }
 
-.link-items .link-item {
-    margin: 5px 15px;
-
-}
 .link-items a{
     text-decoration: none;
     color: white;
+    padding: 20px 30px;
+    border-radius:40px;
+    display: inline-block;
   
 }
 .active{
   background: rgb(230, 83, 60);
-  padding: 20px 30px;
-  border-radius:40px ;
+
 }
 .brand{
     font-size: 2rem;
@@ -97,6 +97,9 @@ margin-bottom: 28px;
 .banner-right{
 
  position: relative;
+}
+.banner-right img{
+    max-width: 100%;
 }
 .btn-class{
   display: flex;
@@ -157,8 +160,10 @@ margin-left: -130px;
  border-radius: 12px;
  backdrop-filter: blur(20px);
  background: rgba(48, 48, 48, 0.54);
-margin-top: -430px;
-margin-left: 230px;
+/* margin-top: -430px;
+margin-left: 230px; */
+top: 100px;
+right:-70px;
 
 }
 
@@ -210,4 +215,43 @@ margin-bottom: 50px;
     text-align: center;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+}
+.RunExtraMile{
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+   border-radius: 18px;
+
+background: rgb(34, 34, 34);
+}
+.content-div{
+    max-width: 300px;
+    padding-left: 50px;
+    text-align: center;
+ 
+}
+.content-div h2{
+     color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 14px;
+}
+.content-div p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 34px;
+
+}
+.img-div{
+    width: 350px;
+    height: 250px;
+    background: red;
+    margin: 30px;
+    border-radius: 18px;
+    background-image: url(./images/run.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    back
 }
