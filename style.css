@@ -3,14 +3,15 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-  .dancing-font{
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
- 
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
   
+
+
+.playwrite-font {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+
+}
 /* Shared Styles */
 .display-flex{
     display: flex;
@@ -32,6 +33,11 @@ section{
     margin-top: 100px;
 }
 /* Navbar styles */
+.display-none{
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -185,7 +191,7 @@ margin-bottom: 50px;
 }
 
 .img-class{
-    width: 250px;
+    width: 220px;
     margin: 20px auto;
 }
 .changehabit-item img{
