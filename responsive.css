@@ -1,0 +1,15 @@
+@media screen and (max-width:576px) {
+    .navbar,.link-items{
+        flex-direction: column;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .changeHabit-items{
+        
+        grid-template-columns:1fr;
+
+    }
+}
