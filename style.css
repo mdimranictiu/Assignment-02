@@ -7,7 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 .playwrite-font {
     font-family: "Playwrite CU", cursive;
@@ -318,6 +321,7 @@ margin-bottom: 80px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 200px;
+    padding: 30px;
 }
 .Calculate-BMI-title{
     font-size: 28px;
@@ -351,29 +355,23 @@ font-weight: 500;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 34px;
 }
-.Calculate-BMI-form{
+.form-control{
+    display: flex;
 }
-.form-two{
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-
-}
-.form-two input,select{
+.form-two input,select,#activity{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     outline: none;
     border:none;
-    padding:20px 30px;
+    padding:15px 10px;
     margin: 10px;
     color: white;
     font-size: 16px;
     font-weight: 400;
+    width: 100%;
 }
 select>option {
     background-color: black;
-}
-#activity{
-    width: 100%;
 }
 #button{
     width: 224px;
