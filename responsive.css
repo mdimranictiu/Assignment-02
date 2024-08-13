@@ -72,4 +72,7 @@
     .form-control{
         width: 100%;
     }
+    .team-items{
+        grid-template-columns: 1fr;
+    }
 }

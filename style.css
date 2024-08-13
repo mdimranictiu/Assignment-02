@@ -7,10 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+/* *{
     padding: 0;
     margin: 0;
-}
+} */
 
 .playwrite-font {
     font-family: "Playwrite CU", cursive;
@@ -379,3 +379,47 @@ select>option {
     margin: 10px;
     margin-top: 34px;
  }
+.Meet-team-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 80px;
+}
+.Meet-team-description{
+    font-size: 14px;
+font-weight: 400;
+text-align: center;
+margin-top: 10px;
+color: rgba(255, 255, 255, 0.5);
+}
+.team-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+     background: rgba(175, 172, 172, 0.2);
+     border-radius: 18px;
+}
+.team-item{
+    width:80%;
+    height: 250px;
+    position: relative;
+   margin: 25px auto;
+}
+.team-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.team-title{
+    position: absolute;
+    font-size: 1.3rem;
+    top: 140px;
+    left: 20px;
+}
+.team-description{
+    position: absolute;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    top: 180px;
+    left: 20px;
+}
