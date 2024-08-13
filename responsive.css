@@ -62,4 +62,14 @@
     .img-div {
         width: 90%;
     }
+    .BMI-Calculator{
+        text-align: center;
+    }
+    .BMI-Calculator-Inner-Wrapper{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .form-two{
+        grid-template-columns: 1fr 1fr;
+    }
 }
